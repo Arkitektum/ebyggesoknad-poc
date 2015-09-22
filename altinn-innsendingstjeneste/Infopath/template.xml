@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-infoPathSolution name="urn:schemas-microsoft-com:office:infopath:Nabovarsel:http---skjema-kxml-no-dibk-nabovarsel" href="manifest.xsf" solutionVersion="1.0.0.3" productVersion="14.0.0" PIVersion="1.0.0.0" ?>
+<?mso-application progid="InfoPath.Document" versionProgid="InfoPath.Document.3"?>
+<nv:Nabovarsel dataFormatProvider="KXML" dataFormatId="4782" dataFormatVersion="33264" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<nv:eiendomByggested>
+		<nv:eiendom>
+			<nv:adresse>
+				<nv:adresselinje1 xsi:nil="true"></nv:adresselinje1>
+				<nv:adresselinje2 xsi:nil="true"></nv:adresselinje2>
+				<nv:adresselinje3 xsi:nil="true"></nv:adresselinje3>
+				<nv:postnr xsi:nil="true"></nv:postnr>
+				<nv:poststed xsi:nil="true"></nv:poststed>
+				<nv:landkode xsi:nil="true"></nv:landkode>
+			</nv:adresse>
+			<nv:eiendomsidentifikasjon>
+				<nv:kommunenummer xsi:nil="true"></nv:kommunenummer>
+				<nv:gaardsnummer xsi:nil="true"></nv:gaardsnummer>
+				<nv:bruksnummer xsi:nil="true"></nv:bruksnummer>
+				<nv:festenummer xsi:nil="true"></nv:festenummer>
+				<nv:seksjonsnummer xsi:nil="true"></nv:seksjonsnummer>
+			</nv:eiendomsidentifikasjon>
+		</nv:eiendom>
+	</nv:eiendomByggested>
+	<nv:tiltakstyper>
+		<nv:tiltakstype>
+			<nv:kode></nv:kode>
+			<nv:beskrivelse></nv:beskrivelse>
+		</nv:tiltakstype>
+	</nv:tiltakstyper>
+	<nv:dispensasjonstyper>
+		<nv:dispensasjonstype>
+			<nv:kode></nv:kode>
+			<nv:beskrivelse></nv:beskrivelse>
+		</nv:dispensasjonstype>
+	</nv:dispensasjonstyper>
+	<nv:gjeldendePlan>
+		<nv:plantype>
+			<nv:kode></nv:kode>
+			<nv:beskrivelse></nv:beskrivelse>
+		</nv:plantype>
+		<nv:navn xsi:nil="true"></nv:navn>
+	</nv:gjeldendePlan>
+	<nv:beskrivelseAvTiltaket xsi:nil="true"></nv:beskrivelseAvTiltaket>
+	<nv:tiltakshaver>
+		<nv:partstype>
+			<nv:kode></nv:kode>
+			<nv:beskrivelse></nv:beskrivelse>
+		</nv:partstype>
+		<nv:organisasjonsnummer xsi:nil="true"></nv:organisasjonsnummer>
+		<nv:navn xsi:nil="true"></nv:navn>
+		<nv:adresse>
+			<nv:adresselinje1 xsi:nil="true"></nv:adresselinje1>
+			<nv:adresselinje2 xsi:nil="true"></nv:adresselinje2>
+			<nv:adresselinje3 xsi:nil="true"></nv:adresselinje3>
+			<nv:postnr xsi:nil="true"></nv:postnr>
+			<nv:poststed xsi:nil="true"></nv:poststed>
+			<nv:landkode xsi:nil="true"></nv:landkode>
+		</nv:adresse>
+		<nv:www xsi:nil="true"></nv:www>
+		<nv:telefonnummer xsi:nil="true"></nv:telefonnummer>
+		<nv:Soeknad_personlig_ansvarsrett>false</nv:Soeknad_personlig_ansvarsrett>
+	</nv:tiltakshaver>
+	<nv:eiere>
+		<nv:part>
+			<nv:partstype>
+				<nv:kode></nv:kode>
+				<nv:beskrivelse></nv:beskrivelse>
+			</nv:partstype>
+			<nv:organisasjonsnummer xsi:nil="true"></nv:organisasjonsnummer>
+			<nv:navn xsi:nil="true"></nv:navn>
+			<nv:adresse>
+				<nv:adresselinje1 xsi:nil="true"></nv:adresselinje1>
+				<nv:adresselinje2 xsi:nil="true"></nv:adresselinje2>
+				<nv:adresselinje3 xsi:nil="true"></nv:adresselinje3>
+				<nv:postnr xsi:nil="true"></nv:postnr>
+				<nv:poststed xsi:nil="true"></nv:poststed>
+				<nv:landkode xsi:nil="true"></nv:landkode>
+			</nv:adresse>
+			<nv:www xsi:nil="true"></nv:www>
+			<nv:telefonnummer xsi:nil="true"></nv:telefonnummer>
+		</nv:part>
+	</nv:eiere>
+	<nv:vedlegg>
+		<nv:vedlegg>
+			<nv:elektroniskVedlegg>false</nv:elektroniskVedlegg>
+			<nv:filnavn xsi:nil="true"></nv:filnavn>
+			<nv:kommentar xsi:nil="true"></nv:kommentar>
+			<nv:postbasertVedlegg>false</nv:postbasertVedlegg>
+			<nv:vedleggstype>
+				<nv:kode></nv:kode>
+				<nv:beskrivelse></nv:beskrivelse>
+			</nv:vedleggstype>
+		</nv:vedlegg>
+	</nv:vedlegg>
+	<nv:naboer>
+		<nv:nabogjenboer>
+			<nv:partstype>
+				<nv:kode></nv:kode>
+				<nv:beskrivelse></nv:beskrivelse>
+			</nv:partstype>
+			<nv:organisasjonsnummer xsi:nil="true"></nv:organisasjonsnummer>
+			<nv:navn xsi:nil="true"></nv:navn>
+			<nv:adresse>
+				<nv:adresselinje1 xsi:nil="true"></nv:adresselinje1>
+				<nv:adresselinje2 xsi:nil="true"></nv:adresselinje2>
+				<nv:adresselinje3 xsi:nil="true"></nv:adresselinje3>
+				<nv:postnr xsi:nil="true"></nv:postnr>
+				<nv:poststed xsi:nil="true"></nv:poststed>
+				<nv:landkode xsi:nil="true"></nv:landkode>
+			</nv:adresse>
+			<nv:www xsi:nil="true"></nv:www>
+			<nv:telefonnummer xsi:nil="true"></nv:telefonnummer>
+			<nv:gjelderNaboeiendom></nv:gjelderNaboeiendom>
+		</nv:nabogjenboer>
+	</nv:naboer>
+</nv:Nabovarsel>

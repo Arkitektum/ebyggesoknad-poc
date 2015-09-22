@@ -1,0 +1,6 @@
+manifest.xsf
+..\nabovarsel.xsd
+sampledata.xml
+template.xml
+view1.xsl
+985FA5C0.png
