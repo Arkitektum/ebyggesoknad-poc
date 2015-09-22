@@ -3,13 +3,13 @@
 Denne filen opprettes og endres automatisk av Microsoft InfoPath.
 Endringer i filen som gjøres utenfor InfoPath, kan gå tapt hvis skjemamalen endres i InfoPath.
 -->
-<xsf:xDocumentClass solutionFormatVersion="3.0.0.0" solutionVersion="1.0.0.3" productVersion="14.0.0" name="urn:schemas-microsoft-com:office:infopath:Nabovarsel:http---skjema-kxml-no-dibk-nabovarsel" requireFullTrust="yes" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:xsf2="http://schemas.microsoft.com/office/infopath/2006/solutionDefinition/extensions" xmlns:xsf3="http://schemas.microsoft.com/office/infopath/2009/solutionDefinition/extensions" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdUtil="http://schemas.microsoft.com/office/infopath/2003/xslt/Util" xmlns:xdXDocument="http://schemas.microsoft.com/office/infopath/2003/xslt/xDocument" xmlns:xdMath="http://schemas.microsoft.com/office/infopath/2003/xslt/Math" xmlns:xdDate="http://schemas.microsoft.com/office/infopath/2003/xslt/Date" xmlns:xdExtension="http://schemas.microsoft.com/office/infopath/2003/xslt/extension" xmlns:xdEnvironment="http://schemas.microsoft.com/office/infopath/2006/xslt/environment" xmlns:xdUser="http://schemas.microsoft.com/office/infopath/2006/xslt/User" xmlns:xdServerInfo="http://schemas.microsoft.com/office/infopath/2009/xslt/ServerInfo" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel">
+<xsf:xDocumentClass solutionFormatVersion="3.0.0.0" solutionVersion="1.0.0.3" productVersion="14.0.0" name="urn:schemas-microsoft-com:office:infopath:Nabovarsel:http---skjema-kxml-no-dibk-nabovarsel-0.9" requireFullTrust="yes" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:xsf2="http://schemas.microsoft.com/office/infopath/2006/solutionDefinition/extensions" xmlns:xsf3="http://schemas.microsoft.com/office/infopath/2009/solutionDefinition/extensions" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdUtil="http://schemas.microsoft.com/office/infopath/2003/xslt/Util" xmlns:xdXDocument="http://schemas.microsoft.com/office/infopath/2003/xslt/xDocument" xmlns:xdMath="http://schemas.microsoft.com/office/infopath/2003/xslt/Math" xmlns:xdDate="http://schemas.microsoft.com/office/infopath/2003/xslt/Date" xmlns:xdExtension="http://schemas.microsoft.com/office/infopath/2003/xslt/extension" xmlns:xdEnvironment="http://schemas.microsoft.com/office/infopath/2006/xslt/environment" xmlns:xdUser="http://schemas.microsoft.com/office/infopath/2006/xslt/User" xmlns:xdServerInfo="http://schemas.microsoft.com/office/infopath/2009/xslt/ServerInfo" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel/0.9">
 	<xsf:package>
 		<xsf:files>
-			<xsf:file name="nabovarsel.xsd">
+			<xsf:file name="nabovarsel-0.9.xsd">
 				<xsf:fileProperties>
 					<xsf:property name="editability" type="string" value="none"></xsf:property>
-					<xsf:property name="namespace" type="string" value="http://skjema.kxml.no/dibk/nabovarsel"></xsf:property>
+					<xsf:property name="namespace" type="string" value="http://skjema.kxml.no/dibk/nabovarsel/0.9"></xsf:property>
 					<xsf:property name="rootElement" type="string" value="Nabovarsel"></xsf:property>
 					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
 				</xsf:fileProperties>
@@ -54,7 +54,7 @@ Endringer i filen som gjøres utenfor InfoPath, kan gå tapt hvis skjemamalen en
 		</xsf:view>
 	</xsf:views>
 	<xsf:documentSchemas>
-		<xsf:documentSchema rootSchema="yes" location="http://skjema.kxml.no/dibk/nabovarsel nabovarsel.xsd"></xsf:documentSchema>
+		<xsf:documentSchema rootSchema="yes" location="http://skjema.kxml.no/dibk/nabovarsel/0.9 nabovarsel-0.9.xsd"></xsf:documentSchema>
 	</xsf:documentSchemas>
 	<xsf:fileNew>
 		<xsf:initialXmlDocument caption="Nabovarsel" href="template.xml"></xsf:initialXmlDocument>

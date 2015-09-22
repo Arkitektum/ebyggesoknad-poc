@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Infopath/view1.xsl"?>
+<Nabovarsel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" dataFormatProvider="KXML" dataFormatId="4782" dataFormatVersion="33264" xmlns="http://skjema.kxml.no/dibk/nabovarsel/0.9">
+  <eiendomByggested>
+    <eiendom>
+      <adresse>
+        <adresselinje1>Storgata 5</adresselinje1>
+        <postnr>3810</postnr>
+        <poststed>Gvarv</poststed>
+      </adresse>
+      <eiendomsidentifikasjon>
+        <kommunenummer>0822</kommunenummer>
+        <gaardsnummer>110</gaardsnummer>
+        <bruksnummer>1</bruksnummer>
+      </eiendomsidentifikasjon>
+    </eiendom>
+  </eiendomByggested>
+  <tiltakstyper>
+    <tiltakstype>
+      <kode>23</kode>
+      <beskrivelse>Påbygg</beskrivelse>
+    </tiltakstype>
+    <tiltakstype>
+      <kode>24</kode>
+      <beskrivelse>Garasje</beskrivelse>
+    </tiltakstype>
+  </tiltakstyper>
+  <dispensasjonstyper>
+    <dispensasjonstype>
+      <kode>Vegloven</kode>
+    </dispensasjonstype>
+  </dispensasjonstyper>
+  <gjeldendePlan>
+    <plantype>
+      <kode>RP</kode>
+      <beskrivelse>Reguleringsplan</beskrivelse>
+    </plantype>
+    <navn>Plan 2010</navn>
+  </gjeldendePlan>
+  <beskrivelseAvTiltaket>Tilbygg til eksisterende hus. Utvide garasjen med bod.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet consequat nisi. Nulla facilisi. Nunc purus eros, cursus lobortis tincidunt volutpat, condimentum vel neque. Curabitur nec quam ut nisl porta semper. Nam orci massa, fringilla nec venenatis eu, laoreet eu lacus. Suspendisse vehicula felis nec arcu sollicitudin, sed tincidunt elit cursus. Mauris euismod nec nibh sit amet suscipit. Suspendisse venenatis purus et semper hendrerit. In tortor orci, venenatis et magna id, porttitor elementum lacus. Aliquam erat volutpat. Pellentesque maximus finibus venenatis. Sed egestas molestie nulla fringilla mattis. Vestibulum sapien purus, sagittis id purus a, dictum pharetra odio. Donec ut ex in ligula bibendum rhoncus.
+
+Suspendisse fringilla ex vitae urna feugiat ultricies. Etiam maximus accumsan arcu, id laoreet sem condimentum sit amet. Suspendisse feugiat libero non feugiat luctus. Vestibulum fringilla neque eros, suscipit sagittis purus volutpat a. Nulla facilisi. Fusce eget tempor nibh. Ut fringilla justo eget sapien placerat consectetur. Sed sed odio diam. Nam hendrerit diam id lectus ornare, ac rutrum metus interdum. Maecenas massa ligula, auctor venenatis consequat at, aliquet sit amet nunc. Nunc auctor egestas aliquam.</beskrivelseAvTiltaket>
+  <tiltakshaver>
+    <partstype>
+      <kode>Privatperson</kode>
+      <beskrivelse>Privatperson</beskrivelse>
+    </partstype>
+    <organisasjonsnummer xsi:nil="true" />
+    <navn>Hans Hansen</navn>
+    <adresse>
+      <adresselinje1>Storgata 5</adresselinje1>
+      <adresselinje2 xsi:nil="true" />
+      <adresselinje3 xsi:nil="true" />
+      <postnr>3810</postnr>
+      <poststed>Gvarv</poststed>
+      <landkode xsi:nil="true" />
+    </adresse>
+    <www>http://home.online.no/~hhansen/byggeprosjekt/fullversjon.pdf</www>
+    <telefonnummer>12345678</telefonnummer>
+    <Soeknad_personlig_ansvarsrett>true</Soeknad_personlig_ansvarsrett>
+  </tiltakshaver>
+  <eiere>
+    <part>
+      <partstype>
+        <kode>Privatperson</kode>
+        <beskrivelse>Privatperson</beskrivelse>
+      </partstype>
+      <organisasjonsnummer xsi:nil="true" />
+      <navn>Hans Hansen</navn>
+      <adresse>
+        <adresselinje1>Storgata 5</adresselinje1>
+        <adresselinje2 xsi:nil="true" />
+        <adresselinje3 xsi:nil="true" />
+        <postnr>3810</postnr>
+        <poststed>Gvarv</poststed>
+        <landkode xsi:nil="true" />
+      </adresse>
+      <www xsi:nil="true" />
+      <telefonnummer>11223344</telefonnummer>
+    </part>
+  </eiere>
+  <vedlegg>
+    <vedlegg>
+      <elektroniskVedlegg>true</elektroniskVedlegg>
+      <filnavn>kart.jpg</filnavn>
+      <kommentar>Kart over eiendommen</kommentar>
+      <postbasertVedlegg>false</postbasertVedlegg>
+      <vedleggstype>
+        <kode>Kart</kode>
+        <beskrivelse />
+      </vedleggstype>
+    </vedlegg>
+    <vedlegg>
+      <elektroniskVedlegg>true</elektroniskVedlegg>
+      <filnavn>situasjonsplan.pdf</filnavn>
+      <kommentar>Situasjonsplan</kommentar>
+      <postbasertVedlegg>false</postbasertVedlegg>
+      <vedleggstype>
+        <kode>Situasjonsplan</kode>
+        <beskrivelse />
+      </vedleggstype>
+    </vedlegg>
+  </vedlegg>
+  <naboer>
+    <nabogjenboer>
+      <partstype>
+        <kode>Privatperson</kode>
+        <beskrivelse>Privatperson</beskrivelse>
+      </partstype>
+      <organisasjonsnummer xsi:nil="true" />
+      <navn>Ole Olsen</navn>
+      <adresse>
+        <adresselinje1>Storgata 3</adresselinje1>
+        <adresselinje2 xsi:nil="true" />
+        <adresselinje3 xsi:nil="true" />
+        <postnr>3810</postnr>
+        <poststed>Gvarv</poststed>
+        <landkode xsi:nil="true" />
+      </adresse>
+      <www xsi:nil="true" />
+      <telefonnummer>22334455</telefonnummer>
+      <gjelderNaboeiendom>
+        <adresse>
+          <adresselinje1>Storgata 3</adresselinje1>
+          <adresselinje2 xsi:nil="true" />
+          <adresselinje3 xsi:nil="true" />
+          <postnr>3810</postnr>
+          <poststed>Gvarv</poststed>
+          <landkode xsi:nil="true" />
+        </adresse>
+        <eiendomsidentifikasjon>
+          <kommunenummer>0822</kommunenummer>
+          <gaardsnummer>109</gaardsnummer>
+          <bruksnummer>1</bruksnummer>
+          <festenummer xsi:nil="true" />
+          <seksjonsnummer xsi:nil="true" />
+        </eiendomsidentifikasjon>
+      </gjelderNaboeiendom>
+    </nabogjenboer>
+    <nabogjenboer>
+      <partstype>
+        <kode>Privatperson</kode>
+        <beskrivelse>Privatperson</beskrivelse>
+      </partstype>
+      <organisasjonsnummer xsi:nil="true" />
+      <navn>Gunn Gundersen</navn>
+      <adresse>
+        <adresselinje1>Storgata 4</adresselinje1>
+        <adresselinje2 xsi:nil="true" />
+        <adresselinje3 xsi:nil="true" />
+        <postnr>3810</postnr>
+        <poststed>Gvarv</poststed>
+        <landkode xsi:nil="true" />
+      </adresse>
+      <www xsi:nil="true" />
+      <telefonnummer>33445566</telefonnummer>
+      <gjelderNaboeiendom>
+        <adresse>
+          <adresselinje1>Storgata 4</adresselinje1>
+          <adresselinje2 xsi:nil="true" />
+          <adresselinje3 xsi:nil="true" />
+          <postnr>3810</postnr>
+          <poststed>Gvarv</poststed>
+          <landkode xsi:nil="true" />
+        </adresse>
+        <eiendomsidentifikasjon>
+          <kommunenummer>0822</kommunenummer>
+          <gaardsnummer>108</gaardsnummer>
+          <bruksnummer>1</bruksnummer>
+          <festenummer xsi:nil="true" />
+          <seksjonsnummer xsi:nil="true" />
+        </eiendomsidentifikasjon>
+      </gjelderNaboeiendom>
+    </nabogjenboer>
+  </naboer>
+</Nabovarsel>

@@ -1,4 +1,4 @@
-<nv:Nabovarsel dataFormatProvider="KXML" dataFormatId="4782" dataFormatVersion="33264" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+<nv:Nabovarsel dataFormatProvider="KXML" dataFormatId="4782" dataFormatVersion="33264" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel/0.9" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
 	<nv:eiendomByggested>
 		<nv:eiendom>
 			<nv:adresse>
@@ -110,9 +110,9 @@
 			<nv:gjelderNaboeiendom/>
 		</nv:nabogjenboer>
 	</nv:naboer>
-	<xd:SchemaInfo LocalName="Nabovarsel" NamespaceURI="http://skjema.kxml.no/dibk/nabovarsel">
+	<xd:SchemaInfo LocalName="Nabovarsel" NamespaceURI="http://skjema.kxml.no/dibk/nabovarsel/0.9">
 		<xd:Namespaces>
-			<xd:Namespace LocalName="Nabovarsel" NamespaceURI="http://skjema.kxml.no/dibk/nabovarsel"/>
+			<xd:Namespace LocalName="Nabovarsel" NamespaceURI="http://skjema.kxml.no/dibk/nabovarsel/0.9"/>
 		</xd:Namespaces>
 	</xd:SchemaInfo>
 </nv:Nabovarsel>

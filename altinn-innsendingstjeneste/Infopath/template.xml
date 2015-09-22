@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?mso-infoPathSolution name="urn:schemas-microsoft-com:office:infopath:Nabovarsel:http---skjema-kxml-no-dibk-nabovarsel" href="manifest.xsf" solutionVersion="1.0.0.3" productVersion="14.0.0" PIVersion="1.0.0.0" ?>
+<?mso-infoPathSolution name="urn:schemas-microsoft-com:office:infopath:Nabovarsel:http---skjema-kxml-no-dibk-nabovarsel-0.9" href="manifest.xsf" solutionVersion="1.0.0.3" productVersion="14.0.0" PIVersion="1.0.0.0" ?>
 <?mso-application progid="InfoPath.Document" versionProgid="InfoPath.Document.3"?>
-<nv:Nabovarsel dataFormatProvider="KXML" dataFormatId="4782" dataFormatVersion="33264" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+<nv:Nabovarsel dataFormatProvider="KXML" dataFormatId="4782" dataFormatVersion="33264" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel/0.9" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
 	<nv:eiendomByggested>
 		<nv:eiendom>
 			<nv:adresse>
