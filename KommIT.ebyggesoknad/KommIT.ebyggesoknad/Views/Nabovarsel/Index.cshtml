@@ -1,0 +1,134 @@
+﻿@model string
+@{
+    ViewBag.Title = "Send inn nabovarsel - elektronisk byggesøknad";
+}
+
+<h1>Innsending av nabovarsel</h1>
+
+
+<div class="row">
+    <div class="col-md-6">
+        <p>Eksempeldata for et nabovarsel</p>
+
+        <textarea id="nabovarsel-xml" rows="20" cols="80" style="width: 100%; max-width: none;">@Model</textarea>
+        
+        <div class="btn-group" role="group" aria-label="...">
+            <button id="show-metadata" class="btn btn-default">Hent metadata for tjenesten</button>
+            <button id="post-xml" class="btn btn-primary">Send inn nabovarsel</button>
+        </div>
+    </div>
+    <div class="col-md-offset-1 col-md-5">
+        <p>Melding-ID: <input type="text" id="messageId" style="width: 100%; max-width: none;" /></p>
+        <p><button id="show-message" class="btn btn-default">Vis melding</button></p>
+        <div class="panel panel-info">
+            <div class="panel-heading">Svar fra Altinn API:</div>
+            <div class="panel-body" id="response"></div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+
+    <script src="@Url.Content("~/Scripts/example-attachment.js")"></script>
+
+    <script>
+        var data = {
+            "Type": "FormTask",
+            "ServiceCode": "4194",
+            "ServiceEdition": "1",
+            "_embedded": {
+                "forms": [
+                    {
+                        "Type": "MainForm",
+                        "DataFormatId": "1",
+                        "DataFormatVersion": "1",
+                        "FormData": "@Html.Raw(HttpUtility.JavaScriptStringEncode(Model))"
+                    }
+                ],
+                "attachments": [
+                    {
+                        "FileName": "avkjoringsplan.pdf",
+                        "AttachmentType": "NabovarselAvkjorselsplan",
+                        "Data": exampleAttachment
+                    },
+                    {
+                        "FileName": "beskrivelse.pdf",
+                        "AttachmentType": "NabovarselBeskrivelse",
+                        "Data": exampleAttachment
+                    },
+                ]
+            }
+        };
+
+        $('#post-xml').click(function (event) {
+            console.log("Sender nabovarsel");
+            event.preventDefault();
+
+            $.ajax({
+                url: "https://tt02.altinn.basefarm.net/api/my/messages",
+                headers: {
+                    "ApiKey": "6FA8CB07-3EF0-4559-B121-33F5AC3CF6AF",
+                    "Content-Type": "application/hal+json",
+                },
+                xhrFields: {
+                    withCredentials: true
+                },
+                type: "POST",
+                data: JSON.stringify(data),
+                success: function (data, status, jqHxr) {
+                    $('#response').html("status=" + status + "<br/><br/>" + data);
+
+                    $('#messageId').val(jqHxr.getResponseHeader('Location'));
+                },
+                error: function (jqHxr, textStatus, errorThrown) {
+                    $('#response').text(textStatus);
+                }
+            });
+        });
+
+        $('#show-metadata').click(function (event) {
+            event.preventDefault();
+            $.ajax({
+                url: "https://tt02.altinn.basefarm.net/api/metadata/formtask/4194/1",
+                headers: {
+                    "ApiKey": "6FA8CB07-3EF0-4559-B121-33F5AC3CF6AF",
+                    "Accept": "application/hal+json",
+                },
+                xhrFields: {
+                    withCredentials: true
+                },
+                success: function (data, status, jqHxr) {
+                    $('#response').html("status=" + status + "<br/><br/><pre>" + JSON.stringify(data, null, 2) + "</pre>");
+                },
+                error: function (jqHxr, textStatus, errorThrown) {
+                    $('#response').text(textStatus);
+                }
+            });
+        });
+
+        $('#show-message').click(function (event) {
+            event.preventDefault();
+            $.ajax({
+                url: $('#messageId').val(),
+                headers: {
+                    "ApiKey": "6FA8CB07-3EF0-4559-B121-33F5AC3CF6AF",
+                    "Accept": "application/hal+json",
+                },
+                xhrFields: {
+                    withCredentials: true
+                },
+                success: function (data, status, jqHxr) {
+                    $('#response').html("status=" + status + "<br/><br/><pre>" + JSON.stringify(data, null, 2) + "</pre>");
+
+                    console.log(data._links.print.href);
+                },
+                error: function (jqHxr, textStatus, errorThrown) {
+                    $('#response').text(textStatus);
+                }
+            });
+        });
+
+    </script>
+}
+
+

@@ -1,0 +1,161 @@
+INFO  2015-08-31 12:46:51,331 20935ms SendNabovarselTjeneste SendNabovarsel     - Hello World////////////////
+INFO  2015-08-31 13:00:28,571  4481ms SendNabovarselTjeneste SendNabovarsel     - Hello World////////////////
+INFO  2015-08-31 13:00:28,593  4503ms SendNabovarselTjeneste SendNabovarsel     - <RestRequest>
+  <AlwaysMultipartFormData>false</AlwaysMultipartFormData>
+  <JsonSerializer>
+    <ContentType>application/json</ContentType>
+  </JsonSerializer>
+  <XmlSerializer>
+    <ContentType>text/xml</ContentType>
+  </XmlSerializer>
+  <UseDefaultCredentials>false</UseDefaultCredentials>
+  <Parameters>
+    <Parameter>
+      <Name>Accept</Name>
+      <Value />
+      <Type>HttpHeader</Type>
+    </Parameter>
+  </Parameters>
+  <Files />
+  <Method>GET</Method>
+  <Resource>/api/my/messages</Resource>
+  <RequestFormat>Xml</RequestFormat>
+  <OnBeforeDeserialization />
+  <Timeout>0</Timeout>
+  <ReadWriteTimeout>0</ReadWriteTimeout>
+  <Attempts>0</Attempts>
+</RestRequest>
+INFO  2015-08-31 13:01:28,018   230ms SendNabovarselTjeneste SendNabovarsel     - Hello World////////////////
+INFO  2015-08-31 13:01:28,045   257ms SendNabovarselTjeneste SendNabovarsel     - <RestRequest>
+  <AlwaysMultipartFormData>false</AlwaysMultipartFormData>
+  <JsonSerializer>
+    <ContentType>application/json</ContentType>
+  </JsonSerializer>
+  <XmlSerializer>
+    <ContentType>text/xml</ContentType>
+  </XmlSerializer>
+  <UseDefaultCredentials>false</UseDefaultCredentials>
+  <Parameters>
+    <Parameter>
+      <Name>Accept</Name>
+      <Value />
+      <Type>HttpHeader</Type>
+    </Parameter>
+  </Parameters>
+  <Files />
+  <Method>GET</Method>
+  <Resource>/api/my/messages</Resource>
+  <RequestFormat>Xml</RequestFormat>
+  <OnBeforeDeserialization />
+  <Timeout>0</Timeout>
+  <ReadWriteTimeout>0</ReadWriteTimeout>
+  <Attempts>0</Attempts>
+</RestRequest>
+INFO  2015-08-31 13:03:37,713   223ms SendNabovarselTjeneste SendNabovarsel     - Hello World////////////////
+INFO  2015-08-31 13:03:37,737   247ms SendNabovarselTjeneste SendNabovarsel     - <RestRequest>
+  <AlwaysMultipartFormData>false</AlwaysMultipartFormData>
+  <JsonSerializer>
+    <ContentType>application/json</ContentType>
+  </JsonSerializer>
+  <XmlSerializer>
+    <ContentType>text/xml</ContentType>
+  </XmlSerializer>
+  <UseDefaultCredentials>false</UseDefaultCredentials>
+  <Parameters>
+    <Parameter>
+      <Name>Accept</Name>
+      <Value />
+      <Type>HttpHeader</Type>
+    </Parameter>
+  </Parameters>
+  <Files />
+  <Method>GET</Method>
+  <Resource>/api/my/messages</Resource>
+  <RequestFormat>Xml</RequestFormat>
+  <OnBeforeDeserialization />
+  <Timeout>0</Timeout>
+  <ReadWriteTimeout>0</ReadWriteTimeout>
+  <Attempts>0</Attempts>
+</RestRequest>
+DEBUG 2015-08-31 13:03:37,737   247ms NabovarselController   Index              - Response!!: nada
+INFO  2015-08-31 13:12:01,198   212ms SendNabovarselTjeneste SendNabovarsel     - Hello World////////////////
+INFO  2015-08-31 13:12:01,230   244ms SendNabovarselTjeneste SendNabovarsel     - <RestRequest>
+  <AlwaysMultipartFormData>false</AlwaysMultipartFormData>
+  <JsonSerializer>
+    <ContentType>application/json</ContentType>
+  </JsonSerializer>
+  <XmlSerializer>
+    <ContentType>text/xml</ContentType>
+  </XmlSerializer>
+  <UseDefaultCredentials>false</UseDefaultCredentials>
+  <Parameters>
+    <Parameter>
+      <Name>Accept</Name>
+      <Value />
+      <Type>HttpHeader</Type>
+    </Parameter>
+  </Parameters>
+  <Files />
+  <Method>GET</Method>
+  <Resource>/api/my/messages</Resource>
+  <RequestFormat>Xml</RequestFormat>
+  <OnBeforeDeserialization />
+  <Timeout>0</Timeout>
+  <ReadWriteTimeout>0</ReadWriteTimeout>
+  <Attempts>0</Attempts>
+</RestRequest>
+DEBUG 2015-08-31 13:12:01,231   245ms NabovarselController   Index              - Response!!: nada
+INFO  2015-08-31 13:13:07,141   213ms SendNabovarselTjeneste SendNabovarsel     - Hello World////////////////
+INFO  2015-08-31 13:13:07,167   239ms SendNabovarselTjeneste SendNabovarsel     - <RestRequest>
+  <AlwaysMultipartFormData>false</AlwaysMultipartFormData>
+  <JsonSerializer>
+    <ContentType>application/json</ContentType>
+  </JsonSerializer>
+  <XmlSerializer>
+    <ContentType>text/xml</ContentType>
+  </XmlSerializer>
+  <UseDefaultCredentials>false</UseDefaultCredentials>
+  <Parameters>
+    <Parameter>
+      <Name>Accept</Name>
+      <Value />
+      <Type>HttpHeader</Type>
+    </Parameter>
+  </Parameters>
+  <Files />
+  <Method>GET</Method>
+  <Resource>/api/my/messages</Resource>
+  <RequestFormat>Xml</RequestFormat>
+  <OnBeforeDeserialization />
+  <Timeout>0</Timeout>
+  <ReadWriteTimeout>0</ReadWriteTimeout>
+  <Attempts>0</Attempts>
+</RestRequest>
+DEBUG 2015-08-31 13:13:07,168   240ms NabovarselController   Index              - Response!!: nada
+INFO  2015-08-31 13:13:36,390   232ms SendNabovarselTjeneste SendNabovarsel     - Hello World////////////////
+INFO  2015-08-31 13:13:36,419   261ms SendNabovarselTjeneste SendNabovarsel     - <RestRequest>
+  <AlwaysMultipartFormData>false</AlwaysMultipartFormData>
+  <JsonSerializer>
+    <ContentType>application/json</ContentType>
+  </JsonSerializer>
+  <XmlSerializer>
+    <ContentType>text/xml</ContentType>
+  </XmlSerializer>
+  <UseDefaultCredentials>false</UseDefaultCredentials>
+  <Parameters>
+    <Parameter>
+      <Name>Accept</Name>
+      <Value />
+      <Type>HttpHeader</Type>
+    </Parameter>
+  </Parameters>
+  <Files />
+  <Method>GET</Method>
+  <Resource>/api/my/messages</Resource>
+  <RequestFormat>Xml</RequestFormat>
+  <OnBeforeDeserialization />
+  <Timeout>0</Timeout>
+  <ReadWriteTimeout>0</ReadWriteTimeout>
+  <Attempts>0</Attempts>
+</RestRequest>
+DEBUG 2015-08-31 13:13:36,420   262ms NabovarselController   Index              - Response!!: nada
