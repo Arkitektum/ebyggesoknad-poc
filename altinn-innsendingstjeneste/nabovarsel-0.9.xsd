@@ -7,8 +7,7 @@
 	     <xs:attribute name="XSLT-prosessor" fixed="SAXON versjon 9.1.0.7"/>
 	     <xs:attribute name="generert" fixed="2014-09-15T10:13:24.85+02:00"/>
 	     <xs:attribute name="navneromprefix" fixed="http://seres.no/xsd"/>
-	     <xs:attribute name="namespace"
-	                    fixed="http://skjema.kxml.no/dibk/nabovarsel/0.9"/>
+	     <xs:attribute name="namespace" fixed="http://skjema.kxml.no/dibk/nabovarsel/0.9"/>
 	     <xs:attribute name="meldingsnavn" fixed="Nabovarsel"/>
 	     <xs:attribute name="domenenavn" fixed="KS"/>
 	     <xs:attribute name="modellnavn" fixed="NabovarselType"/>
@@ -53,7 +52,7 @@
 		<xs:sequence>
 			<xs:element name="adresse" type="nv:EnkelAdresseType" nillable="true" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="eiendomsidentifikasjon" type="nv:MatrikkelnummerType" nillable="true" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="bygningsnummerr" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="bygningsnummer" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="bolignummer" type="xs:string" nillable="true" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
@@ -99,7 +98,7 @@
 			<xs:element name="nabovarsel" type="nv:NabovarselType" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
-	<xs:complexType name="NabovarselType" seres:guid="http://kommit.metakat.no/Objekttype/Index/E96285F9-ED23-4a8e-90CA-1262B8F593FB">
+	<xs:complexType name="NabovarselType" seres:elementtype="Meldingsmodell" seres:guid="http://kommit.metakat.no/Objekttype/Index/E96285F9-ED23-4a8e-90CA-1262B8F593FB">
 		<xs:sequence>
 			<xs:element name="eiendomByggested" type="nv:EiendomListe"  minOccurs="1" maxOccurs="1"/>
 			<xs:element name="tiltakstyper" type="nv:TiltakstypeListe"  minOccurs="1" maxOccurs="1"/>
