@@ -1,4 +1,4 @@
-<nv:Nabovarsel dataFormatProvider="KXML" dataFormatId="4782" dataFormatVersion="33264" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel/0.9" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+<nv:Nabovarsel dataFormatProvider="KXML" dataFormatId="4782" dataFormatVersion="33264" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:nv="http://skjema.kxml.no/dibk/nabovarsel/0.9" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
 	<nv:eiendomByggested>
 		<nv:eiendom>
 			<nv:adresse>
@@ -16,6 +16,8 @@
 				<nv:festenummer/>
 				<nv:seksjonsnummer/>
 			</nv:eiendomsidentifikasjon>
+			<nv:bygningsnummer/>
+			<nv:bolignummer/>
 		</nv:eiendom>
 	</nv:eiendomByggested>
 	<nv:tiltakstyper>
@@ -43,6 +45,7 @@
 			<nv:kode/>
 			<nv:beskrivelse/>
 		</nv:partstype>
+		<nv:foedselsnummer/>
 		<nv:organisasjonsnummer/>
 		<nv:navn/>
 		<nv:adresse>
@@ -53,8 +56,9 @@
 			<nv:poststed/>
 			<nv:landkode/>
 		</nv:adresse>
-		<nv:www/>
 		<nv:telefonnummer/>
+		<nv:mobilnummer/>
+		<nv:epost/>
 		<nv:Soeknad_personlig_ansvarsrett>false</nv:Soeknad_personlig_ansvarsrett>
 	</nv:tiltakshaver>
 	<nv:eiere>
@@ -63,6 +67,7 @@
 				<nv:kode/>
 				<nv:beskrivelse/>
 			</nv:partstype>
+			<nv:foedselsnummer/>
 			<nv:organisasjonsnummer/>
 			<nv:navn/>
 			<nv:adresse>
@@ -73,8 +78,9 @@
 				<nv:poststed/>
 				<nv:landkode/>
 			</nv:adresse>
-			<nv:www/>
 			<nv:telefonnummer/>
+			<nv:mobilnummer/>
+			<nv:epost/>
 		</nv:part>
 	</nv:eiere>
 	<nv:vedlegg>
@@ -95,6 +101,7 @@
 				<nv:kode/>
 				<nv:beskrivelse/>
 			</nv:partstype>
+			<nv:foedselsnummer/>
 			<nv:organisasjonsnummer/>
 			<nv:navn/>
 			<nv:adresse>
@@ -105,11 +112,21 @@
 				<nv:poststed/>
 				<nv:landkode/>
 			</nv:adresse>
-			<nv:www/>
 			<nv:telefonnummer/>
-			<nv:gjelderNaboeiendom/>
+			<nv:mobilnummer/>
+			<nv:epost/>
+			<nv:gjelderNaboeiendom>
+				<nv:bygningsnummer/>
+				<nv:bolignummer/>
+			</nv:gjelderNaboeiendom>
+			<nv:epostSendt/>
+			<nv:harPersonligMottattVarsel>false</nv:harPersonligMottattVarsel>
+			<nv:PersonligMottattVarsel/>
+			<nv:harPersonligSamtykkeTilTiltaket>false</nv:harPersonligSamtykkeTilTiltaket>
+			<nv:PersonligSamtykkeTilTiltaket/>
 		</nv:nabogjenboer>
 	</nv:naboer>
+	<nv:soeknadensHjemmeside/>
 	<xd:SchemaInfo LocalName="Nabovarsel" NamespaceURI="http://skjema.kxml.no/dibk/nabovarsel/0.9">
 		<xd:Namespaces>
 			<xd:Namespace LocalName="Nabovarsel" NamespaceURI="http://skjema.kxml.no/dibk/nabovarsel/0.9"/>
