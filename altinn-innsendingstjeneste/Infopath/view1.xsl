@@ -243,7 +243,7 @@ th {
 	</xsl:template>
 
 	<xsl:template match="nv:Nabovarsel" mode="_1">
-		<div title="" class="xdSection xdRepeating" style="MARGIN-BOTTOM: 0px; BORDER-TOP: 0pt; BORDER-RIGHT: 0pt; WIDTH: 637px; BORDER-BOTTOM: 0pt; BORDER-LEFT: 0pt" align="left" xd:xctname="Section" xd:CtrlId="CTRL1" tabIndex="-1" xd:widgetIndex="0">
+		<div title="" class="xdSection xdRepeating" style="MARGIN-BOTTOM: 0px; BORDER-TOP: 0pt; BORDER-RIGHT: 0pt; WIDTH: 637px; BORDER-BOTTOM: 0pt; BORDER-LEFT: 0pt" align="left">
 
 			<img src="985FA5C0.png" alt="Direktoratet for Byggkvalitet" height="100" width="82" style="float: right" />
 			<h1>Opplysninger gitt i nabovarsel</h1>
@@ -307,7 +307,7 @@ th {
 		</div>
 	</xsl:template>
 	<xsl:template match="nv:eiendom" mode="_2">
-		<div title="" class="xdRepeatingSection xdRepeating" xd:xctname="RepeatingSection" xd:CtrlId="CTRL40" tabIndex="-1" xd:widgetIndex="0">
+		<div title="" class="xdRepeatingSection xdRepeating">
 			<table>
 				<thead>
 					<tr>
@@ -364,7 +364,7 @@ th {
 		</div>
 	</xsl:template>
 	<xsl:template match="nv:tiltakstyper" mode="_3" >
-		<div class="xdSection xdRepeating" xd:xctname="Section" xd:CtrlId="CTRL11" xd:widgetIndex="0">
+		<div class="xdSection xdRepeating">
 
 			<table class="no-margin-below">
 				<thead>
@@ -389,7 +389,7 @@ th {
 		</div>
 	</xsl:template>
 	<xsl:template match="nv:dispensasjonstyper" mode="_4">
-		<div class="xdSection xdRepeating" xd:xctname="Section" xd:CtrlId="CTRL13" xd:widgetIndex="0">
+		<div class="xdSection xdRepeating">
 			<table>
 				<thead>
 					<tr>
@@ -415,7 +415,7 @@ th {
 	</xsl:template>
 
 	<xsl:template match="nv:tiltakshaver" mode="_6">
-		<div class="xdSection xdRepeating" xd:xctname="Section" xd:CtrlId="CTRL18" xd:widgetIndex="0">
+		<div class="xdSection xdRepeating">
 			<table>
 				<thead>
 					<tr>
@@ -459,7 +459,7 @@ th {
 	</xsl:template>
 
 	<xsl:template match="nv:part" mode="_7">
-		<div class="xdRepeatingSection xdRepeating" xd:CtrlId="CTRL22" xd:xctname="RepeatingSection" xd:widgetIndex="0">
+		<div class="xdRepeatingSection xdRepeating">
 			<div>
 				<xsl:apply-templates select="." mode="_8"/>
 			</div>
@@ -467,7 +467,7 @@ th {
 	</xsl:template>
 
 	<xsl:template match="nv:part" mode="_8">
-		<div class="xdSection xdRepeating" xd:xctname="Section" xd:CtrlId="CTRL23" xd:widgetIndex="0">
+		<div class="xdSection xdRepeating">
 			<table>
 				<thead>
 					<tr><th colspan="3">Merknader sendes til</th></tr>
@@ -507,7 +507,7 @@ th {
 	</xsl:template>
 
 	<xsl:template match="nv:vedlegg" mode="_9">
-		<div class="xdRepeatingSection xdRepeating" xd:CtrlId="CTRL28" xd:xctname="RepeatingSection" xd:widgetIndex="0">
+		<div class="xdRepeatingSection xdRepeating">
 			<table>
 				<thead>
 					<tr><th colspan="3">Følgende vedlegg er sendt med nabovarselet</th></tr>
@@ -565,7 +565,7 @@ th {
 
 	<!-- Kvittering for nabovarsel -->
 	<xsl:template match="nv:Nabovarsel" mode="_12">
-		<div title="" class="xdSection" style="MARGIN-BOTTOM: 0px; BORDER-TOP: 0pt; BORDER-RIGHT: 0pt; WIDTH: 637px; BORDER-BOTTOM: 0pt; BORDER-LEFT: 0pt" align="left" xd:xctname="Section" xd:CtrlId="CTRL32" tabIndex="-1" xd:widgetIndex="0">
+		<div title="" class="xdSection" style="MARGIN-BOTTOM: 0px; BORDER-TOP: 0pt; BORDER-RIGHT: 0pt; WIDTH: 637px; BORDER-BOTTOM: 0pt; BORDER-LEFT: 0pt" align="left">
 			<h1>Kvittering for nabovarsel</h1>
 			<p><small>sendes kommunen sammen med søknaden</small></p>
 			<table>
@@ -635,13 +635,13 @@ th {
 	</xsl:template>
 
 	<xsl:template match="nv:naboer" mode="_13">
-		<div class=" " xd:CtrlId="CTRL41" xd:xctname="RepeatingSection" xd:widgetIndex="0">
+		<div class=" ">
 			<xsl:apply-templates select="nv:nabogjenboer" mode="_14"/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="nv:nabogjenboer" mode="_14">
-		<div class="xdSection xdRepeatingSection" xd:xctname="Section" xd:CtrlId="CTRL42" xd:widgetIndex="0">
+		<div class="xdSection xdRepeatingSection">
 			<table>
 				<thead>
 					<tr>
