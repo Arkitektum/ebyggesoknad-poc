@@ -326,39 +326,25 @@ th {
 					</tr>
 					<tr>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL4" xd:binding="nv:eiendomsidentifikasjon/nv:gaardsnummer">
-								<xsl:value-of select="nv:eiendomsidentifikasjon/nv:gaardsnummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomsidentifikasjon/nv:gaardsnummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL5" xd:binding="nv:eiendomsidentifikasjon/nv:bruksnummer">
-								<xsl:value-of select="nv:eiendomsidentifikasjon/nv:bruksnummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomsidentifikasjon/nv:bruksnummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL6" xd:binding="nv:eiendomsidentifikasjon/nv:festenummer">
-								<xsl:value-of select="nv:eiendomsidentifikasjon/nv:festenummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomsidentifikasjon/nv:festenummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL7" xd:binding="nv:eiendomsidentifikasjon/nv:seksjonsnummer">
-								<xsl:value-of select="nv:eiendomsidentifikasjon/nv:seksjonsnummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomsidentifikasjon/nv:seksjonsnummer"/>
 						</td>
 						<td class="new-section">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL8" xd:binding="nv:adresse/nv:adresselinje1">
-								<xsl:value-of select="nv:adresse/nv:adresselinje1"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:adresselinje1"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL9" xd:binding="nv:adresse/nv:postnr">
-								<xsl:value-of select="nv:adresse/nv:postnr"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:postnr"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL9" xd:binding="nv:adresse/nv:poststed">
-								<xsl:value-of select="nv:adresse/nv:poststed"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:poststed"/>
 						</td>
 					</tr>
 					<tr>
@@ -370,9 +356,7 @@ th {
 							test
 						</td>
 						<td colspan="3" class="new-section">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL10" xd:binding="nv:eiendomsidentifikasjon/nv:kommunenummer">
-								<xsl:value-of select="nv:eiendomsidentifikasjon/nv:kommunenummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomsidentifikasjon/nv:kommunenummer"/>
 						</td>
 					</tr>
 				</tbody>
@@ -392,11 +376,9 @@ th {
 					<tr>
 						<td>
 							<ul class="horizontal">
-								<xsl:for-each select="nv:tiltakstyper">
+								<xsl:for-each select="nv:tiltakstype">
 									<li>
-										<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL12" xd:binding="nv:beskrivelse">
-											<xsl:value-of select="nv:beskrivelse"/>
-										</span>
+										<xsl:value-of select="nv:beskrivelse"/>
 									</li>
 								</xsl:for-each>
 							</ul>
@@ -420,9 +402,7 @@ th {
 							<ul class="horizontal">
 								<xsl:for-each select="nv:dispensasjonstype">
 									<li>
-										<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL14" xd:binding="nv:kode">
-											<xsl:value-of select="nv:kode"/>
-										</span>
+										<xsl:value-of select="nv:kode"/>
 									</li>
 								</xsl:for-each>
 							</ul>
@@ -448,9 +428,7 @@ th {
 					</tr>
 					<tr>
 						<td colspan="4">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL19" xd:binding="nv:navn">
-								<xsl:value-of select="nv:navn"/>
-							</span>
+							<xsl:value-of select="nv:navn"/>
 						</td>
 					</tr>
 					<tr>
@@ -465,18 +443,14 @@ th {
 						</td>
 						<td></td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL20" xd:binding="nv:telefonnummer">
-								<xsl:value-of select="nv:telefonnummer"/>
-							</span>
+							<xsl:value-of select="nv:telefonnummer"/>
 						</td>
 						<td></td>
 					</tr>
 					<tr class="new-section">
 						<th class="information">Søknaden kan ses på hjemmeside:<br/>(ikke obligatorisk:)</th>
 						<td colspan="3" class="new-section">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL21" xd:binding="nv:www">
-								<xsl:value-of select="nv:www"/>
-							</span>
+							<xsl:value-of select="nv:www"/>
 						</td>
 					</tr>
 				</tbody>
@@ -507,14 +481,10 @@ th {
 					</tr>
 					<tr>
 						<td colspan="2">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL24" xd:binding="nv:navn">
-								<xsl:value-of select="nv:navn"/>
-							</span>
+							<xsl:value-of select="nv:navn"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL25" xd:binding="nv:adresse/nv:adresselinje1">
-								<xsl:value-of select="nv:adresse/nv:adresselinje1"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:adresselinje1"/>
 						</td>
 					</tr>
 					<tr>
@@ -524,14 +494,10 @@ th {
 					</tr>
 					<tr>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL26" xd:binding="nv:adresse/nv:postnr">
-								<xsl:value-of select="nv:adresse/nv:postnr"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:postnr"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL27" xd:binding="nv:adresse/nv:poststed">
-								<xsl:value-of select="nv:adresse/nv:poststed"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:poststed"/>
 						</td>
 						<td></td>
 					</tr>
@@ -555,19 +521,13 @@ th {
 					<xsl:for-each select="nv:vedlegg">
 						<tr>
 							<td>
-								<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL29" xd:binding="nv:kommentar">
-									<xsl:value-of select="nv:kommentar"/>
-								</span>
+								<xsl:value-of select="nv:kommentar"/>
 							</td>
 							<td>
-								<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL30" xd:binding="nv:vedleggstype/nv:kode">
-									<xsl:value-of select="nv:vedleggstype/nv:kode"/>
-								</span>
+								<xsl:value-of select="nv:vedleggstype/nv:kode"/>
 							</td>
 							<td>
-								<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL31" xd:binding="nv:filnavn">
-									<xsl:value-of select="nv:filnavn"/>
-								</span>
+								<xsl:value-of select="nv:filnavn"/>
 							</td>
 						</tr>
 					</xsl:for-each>
@@ -633,35 +593,23 @@ th {
 					</tr>
 					<tr>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL33" xd:binding="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:gaardsnummer">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:gaardsnummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:gaardsnummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL34" xd:binding="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:bruksnummer">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:bruksnummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:bruksnummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL35" xd:binding="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:festenummer">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:festenummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:festenummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL36" xd:binding="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL36" xd:binding="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer"/>
 						</td>
 						<td><!-- bolignummer mangler i modellen --></td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL37" xd:binding="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:kommunenummer">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:kommunenummer"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:eiendomsidentifikasjon/nv:kommunenummer"/>
 						</td>
 					</tr>
 					<tr>
@@ -671,19 +619,13 @@ th {
 					</tr>
 					<tr>
 						<td colspan="4">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL38" xd:binding="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:adresselinje1">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:adresselinje1"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:adresselinje1"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL39" xd:binding="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:postnr">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:postnr"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:postnr"/>
 						</td>
 						<td colspan="2">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL40" xd:binding="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:poststed">
-								<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:poststed"/>
-							</span>
+							<xsl:value-of select="nv:eiendomByggested/nv:eiendom/nv:adresse/nv:poststed"/>
 						</td>
 					</tr>
 				</tbody>
@@ -718,29 +660,19 @@ th {
 					</tr>
 					<tr>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL43" xd:binding="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:gaardsnummer">
-								<xsl:value-of select="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:gaardsnummer"/>
-							</span>
+							<xsl:value-of select="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:gaardsnummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL44" xd:binding="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:bruksnummer">
-								<xsl:value-of select="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:bruksnummer"/>
-							</span>
+							<xsl:value-of select="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:bruksnummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:festenummer">
-								<xsl:value-of select="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:festenummer"/>
-							</span>
+							<xsl:value-of select="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:festenummer"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer">
-								<xsl:value-of select="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer"/>
-							</span>
+							<xsl:value-of select="nv:gjelderNaboeiendom/nv:eiendomsidentifikasjon/nv:seksjonsnummer"/>
 						</td>
 						<td colspan="2" class="new-section">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:navn">
-								<xsl:value-of select="nv:navn"/>
-							</span>
+							<xsl:value-of select="nv:navn"/>
 						</td>
 						<td>
 							<!-- dato sendt epost mangler i modellen -->
@@ -754,14 +686,10 @@ th {
 					</tr>
 					<tr>
 						<td colspan="4" class="new-section">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:gjelderNaboeiendom/nv:adresse/nv:adresselinje1">
-								<xsl:value-of select="nv:gjelderNaboeiendom/nv:adresse/nv:adresselinje1"/>
-							</span>
+							<xsl:value-of select="nv:gjelderNaboeiendom/nv:adresse/nv:adresselinje1"/>
 						</td>
 						<td colspan="2">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:adresse/nv:adresselinje1">
-								<xsl:value-of select="nv:adresse/nv:adresselinje1"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:adresselinje1"/>
 						</td>
 					</tr>
 
@@ -774,24 +702,16 @@ th {
 					</tr>
 					<tr>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:gjelderNaboeiendom/nv:adresse/nv:postnr">
-								<xsl:value-of select="nv:gjelderNaboeiendom/nv:adresse/nv:postnr"/>
-							</span>
+							<xsl:value-of select="nv:gjelderNaboeiendom/nv:adresse/nv:postnr"/>
 						</td>
 						<td colspan="3">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:gjelderNaboeiendom/nv:adresse/nv:poststed">
-								<xsl:value-of select="nv:gjelderNaboeiendom/nv:adresse/nv:poststed"/>
-							</span>
+							<xsl:value-of select="nv:gjelderNaboeiendom/nv:adresse/nv:poststed"/>
 						</td>
 						<td class="new-section">
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:adresse/nv:postnr">
-								<xsl:value-of select="nv:adresse/nv:postnr"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:postnr"/>
 						</td>
 						<td>
-							<span class="xdTextBox" xd:xctname="PlainText" xd:CtrlId="CTRL45" xd:binding="nv:adresse/nv:poststed">
-								<xsl:value-of select="nv:adresse/nv:poststed"/>
-							</span>
+							<xsl:value-of select="nv:adresse/nv:poststed"/>
 						</td>
 						<td class="new-section"></td>
 					</tr>
